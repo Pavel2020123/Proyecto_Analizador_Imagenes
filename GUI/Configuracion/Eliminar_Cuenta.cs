@@ -8,26 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GUI
+namespace GUI.Configuracion
 {
-    public partial class Form1 : Form
+    public partial class Eliminar_Cuenta : Form
     {
-        public Form1()
+        public Eliminar_Cuenta()
         {
             InitializeComponent();
         }
 
-        private void btnIniciar_Click(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
-
-
-            this.Hide();
-            Form2 f2 = new Form2();
-            f2.ShowDialog();
-            this.Show();  
-
-
-          
 
         }
     }

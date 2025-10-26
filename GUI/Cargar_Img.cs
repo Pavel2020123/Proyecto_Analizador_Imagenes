@@ -1,25 +1,26 @@
-﻿using System;
+﻿using GUI.Configuracion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Net.Http;
-using System.Text.Json;
 
 namespace GUI
 {
-    public partial class Form3 : Form
+    public partial class Cargar_Img : Form
     {
 
 
 
 
-        public Form3()
+        public Cargar_Img()
         {
             InitializeComponent();
         }
@@ -27,14 +28,17 @@ namespace GUI
         private void btnHistorial_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form5 f5 = new Form5();
+            Historial f5 = new Historial();
             f5.ShowDialog();
             this.Show();
         }
 
         private void btnConfiguracion_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Configuracion1 f6 = new Configuracion1();
+            f6.ShowDialog();
+            this.Show();
         }
 
         private void lbl1_Click(object sender, EventArgs e)
@@ -125,13 +129,16 @@ namespace GUI
 
         private void btnInicioLogo_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Principal f1 = new Principal();
+            f1.ShowDialog();
+            this.Show();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form4 f4 = new Form4();
+            Registro f4 = new Registro();
             f4.ShowDialog();
             this.Show();
         }

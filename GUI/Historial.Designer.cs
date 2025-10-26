@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class Form5
+    partial class Historial
     {
         /// <summary>
         /// Required designer variable.

@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +11,9 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class Form2 : Form
+    public partial class Inicio : Form
     {
-        public Form2()
+        public Inicio()
         {
             InitializeComponent();
         }
@@ -21,7 +22,7 @@ namespace GUI
         {
 
             this.Hide();
-            Form3 f3 = new Form3();
+            Cargar_Img f3 = new Cargar_Img();
             f3.ShowDialog();
             this.Show();  
 

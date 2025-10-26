@@ -14,12 +14,12 @@ namespace GUI
 {
 
 
-    public partial class Form4 : Form
+    public partial class Registro : Form
     {
 
         ServicioUsuario servicio = new ServicioUsuario();
 
-        public Form4()
+        public Registro()
         {
             InitializeComponent();
         }

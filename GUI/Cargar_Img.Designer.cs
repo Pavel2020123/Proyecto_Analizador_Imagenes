@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class Form3
+    partial class Cargar_Img
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cargar_Img));
             this.btnInicioLogo = new System.Windows.Forms.Button();
             this.btnHistorial = new System.Windows.Forms.Button();
             this.btnConfiguracion = new System.Windows.Forms.Button();
@@ -85,9 +85,9 @@
             // 
             this.btnCerrarSesion.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnCerrarSesion.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarSesion.Image")));
-            this.btnCerrarSesion.Location = new System.Drawing.Point(12, 579);
+            this.btnCerrarSesion.Location = new System.Drawing.Point(12, 555);
             this.btnCerrarSesion.Name = "btnCerrarSesion";
-            this.btnCerrarSesion.Size = new System.Drawing.Size(88, 52);
+            this.btnCerrarSesion.Size = new System.Drawing.Size(90, 66);
             this.btnCerrarSesion.TabIndex = 3;
             this.btnCerrarSesion.UseVisualStyleBackColor = false;
             // 
@@ -197,7 +197,7 @@
             this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
-            // Form3
+            // Cargar_Img
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -212,7 +212,7 @@
             this.Controls.Add(this.btnConfiguracion);
             this.Controls.Add(this.btnHistorial);
             this.Controls.Add(this.btnInicioLogo);
-            this.Name = "Form3";
+            this.Name = "Cargar_Img";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.panel1.ResumeLayout(false);

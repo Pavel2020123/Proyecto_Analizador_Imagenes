@@ -12,12 +12,12 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class Form5 : Form
+    public partial class Historial : Form
     {
 
         ServicioUsuario servicio = new ServicioUsuario();
 
-        public Form5()
+        public Historial()
         {
             InitializeComponent();
         }

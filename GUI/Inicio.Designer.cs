@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class Form2
+    partial class Inicio
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.picLogo2 = new System.Windows.Forms.PictureBox();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
